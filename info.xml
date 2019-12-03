@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<extension key="com.agiliway.custompermission" type="module">
+	<file>custompermission</file>
+	<name>Custom Permission</name>
+	<description>Custompermission</description>
+	<license>AGPL-3.0</license>
+	<maintainer>
+		<author>Agiliway</author>
+		<email>civicrm@agiliway.com</email>
+	</maintainer>
+	<urls>
+		<url desc="Main Extension Page">https://github.com/agiliway/com.agiliway.custompermission</url>
+		<url desc="documentation">https://github.com/agiliway/com.agiliway.custompermission/README.md</url>
+		<url desc="Support">https://agiliway.com</url>
+		<url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+	</urls>
+	<releaseDate>2019-12-03</releaseDate>
+	<version>1.0.0</version>
+	<develStage>stable</develStage>
+	<compatibility>
+		<ver>4.7</ver>
+	</compatibility>
+	<comments>The extension implements CiviCRM orgstructure-based access control functionality for multi-unit hierarchically structured organizations.</comments>
+	<civix>
+		<namespace>CRM/Custompermission</namespace>
+	</civix>
+</extension>

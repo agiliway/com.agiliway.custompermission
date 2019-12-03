@@ -1,0 +1,121 @@
+.crm-relationship-form-block-is_permission_a_b {
+    display: none;
+}
+
+.crm-relationship-form-block-is_permission_b_a {
+    display: none;
+}
+
+/* Organization hierarchy */
+
+.crm-container .crm-organization-hierarchy-block {
+    background: #ffffff;
+    border: 1px solid #d3d3d3;
+}
+
+.hierarchy-wrapper {
+    overflow-y: auto;
+    white-space: nowrap;
+    padding: 4px;
+}
+
+.hierarchy-wrapper .row-level {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    margin-bottom: 8px;
+}
+
+.hierarchy-wrapper [data-row="organization_children_contacts"] > .col-11,
+.hierarchy-wrapper [data-row="organization_children"] > .col-11  {
+    margin-left: 46px;
+}
+
+.hierarchy-wrapper [data-row="organization_children_contacts"] > .col-11  {
+    margin-left: 60px;
+    margin-bottom: 3px;
+}
+
+.hierarchy-wrapper .col-1,
+.hierarchy-wrapper .col-11 {
+    z-index: 10;
+}
+
+.hierarchy-wrapper .icons-block {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-pack: distribute;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    width: 50px;
+    margin-right: 10px;
+    height: 24px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+.hierarchy-wrapper .arrow-icon {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 0 6px 6px;
+    border-color: transparent transparent transparent #000;
+    border-radius: 3px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.hierarchy-wrapper .arrow-icon.active {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.hierarchy-wrapper .eye-icon {
+    width: 10px;
+    height: 10px;
+    border: solid 1px #000;
+    border-radius: 75% 15%;
+    position: relative;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-left: 20px;
+}
+.hierarchy-wrapper .eye-icon:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border: solid 1px #000;
+    border-radius: 50%;
+    left: 2px;
+    top: 2px;
+}
+
+.hierarchy-wrapper .eye-icon.active:before {
+    background: #000;
+}
+
+.hierarchy-wrapper .icons-block > div:only-child {
+    margin-left: 30px;
+}
+
+.hierarchy-wrapper .organization-links a,
+.hierarchy-wrapper .contacts-links a {
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 4px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.hierarchy-wrapper .contacts-links a {
+    font-size: 12px;
+}
+
+/* END organization hierarchy*/

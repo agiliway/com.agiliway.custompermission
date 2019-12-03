@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<menu>
+		<item>
+				<path>civicrm/custompermission/settings</path>
+				<title>Custompermission Settings</title>
+				<page_callback>CRM_Custompermission_Form_Settings</page_callback>
+				<access_arguments>administer CiviCRM</access_arguments>
+		</item>
+		<item>
+				<path>civicrm/custompermission/organizations-hierarchy</path>
+				<title>Organizations hierarchy</title>
+				<page_callback>CRM_Custompermission_Page_OrganizationsHierarchy</page_callback>
+				<access_arguments>access CiviCRM</access_arguments>
+		</item>
+		<item>
+				<path>civicrm/custompermission/ajax/child-contacts</path>
+				<page_callback>CRM_Custompermission_AJAX::getChildContacts</page_callback>
+				<access_arguments>access CiviCRM</access_arguments>
+		</item>
+</menu>
