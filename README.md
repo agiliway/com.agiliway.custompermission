@@ -2,7 +2,7 @@
 
 The Custom Permission extension (com.agiliway.custompermission) is a CiviCRM component which implements CiviCRM orgstructure-based access control functionality for multi-unit hierarchically structured organizations. The extension supports permission allocation by roles and units.   
 
-####Custom Permission Extension allows:
+## Custom Permission Extension allows:
 * building a hierarchical organization structure through CiviRelationship  
 * setting up relationships between organization units and assigning permissions accordingly 
 * setting up user/organization relationship and assigning permissions accordingly 
@@ -11,7 +11,7 @@ The Custom Permission extension (com.agiliway.custompermission) is a CiviCRM com
 * extending access for selected roles to employees and other organization constituents 
 * applying access rules to all components (contacts, cases, activities, events) 
 ## ![Screenshot](./images/Hierarchy.png)
-####Follow these steps to assign permissions: 
+#### Follow these steps to assign permissions: 
 * Go to CiviCRM admin panel 
 * Install Custom Permission Extension: Administer => System Settings => Extensions  
 * Input the main organization name: Administer => Сustom Permissions settings 
@@ -23,23 +23,23 @@ The Custom Permission extension (com.agiliway.custompermission) is a CiviCRM com
 * In view of such settings the contacts are granted the following access permissions:  
 ## ![Screenshot](./images/OrganizationHierarchy.png)
 
-###In view of such settings the contacts are granted the following access permissions:  
-#####Main Employee:
+### In view of such settings the contacts are granted the following access permissions:  
+##### Main Employee:
 * View and Edit the Main Organization profile; 
 * View and Edit the Sub Organization and Sub Employee profiles; 
 * View and Edit the Child Organization and Child Employee profiles. 
 
-#####Sub Employee:
+##### Sub Employee:
 * View the Main Organization and Main Employee profiles; 
 * View and Edit the Sub Organization profile; 
 * View and Edit the Child Organization and Child Employee profiles. 
 
-#####Child Employee: 
+##### Child Employee: 
 * View the Main Organization and Main Employee profiles; 
 * View the Sub Organization and Sub Employee profiles; 
 * View and Edit the Child Organization profile 
 
-#####Required CMS permissions: 
+##### Required CMS permissions: 
 * CiviCRM: view my contact 
 * CiviCRM: edit my contact 
 * CiviCRM: access CiviCRM backend and API 
