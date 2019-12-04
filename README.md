@@ -45,4 +45,4 @@ The Custom Permission extension (com.agiliway.custompermission) is a CiviCRM com
 * CiviCRM: access CiviCRM backend and API 
 
 ### Requirements:
-CiviCRM v4.6.x, v4.7.x, v5.x 
+CiviCRM v4.7.x, v5.x
