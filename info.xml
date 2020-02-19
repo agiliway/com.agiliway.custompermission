@@ -18,7 +18,7 @@
 	<version>1.0.0</version>
 	<develStage>stable</develStage>
 	<compatibility>
-		<ver>4.7</ver>
+		<ver>5.7</ver>
 	</compatibility>
 	<comments>The extension implements CiviCRM orgstructure-based access control functionality for multi-unit hierarchically structured organizations.</comments>
 	<civix>
